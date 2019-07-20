@@ -1,24 +1,94 @@
 body {
   font-family: 'Nunito', sans-serif;
-  margin: 0 10vh;
   padding: 0;
   background: rgb(125,185,255);
   background: linear-gradient(0deg, rgba(125,185,255,1) 0%, rgba(0,69,150,0.69) 100%);
   text-align: justify;
   color: white;
+  position: relative;
+  z-index: 0;
+}
+
+.title {
+  margin-top: 10vh;
+}
+
+.title h1 {
+  font-size: 475%;
+}
+
+.white {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 50vh;
+  z-index: -1;
 }
 
 .container {
   min-height: 100vh;
 }
+
+.wider {
+  width: 150px;
+}
+.margin {
+  margin-bottom: 25vh;
+}
 h2 {
+  font-size: 50px;
   text-align: center;
-  font-size: 36px;
-  color: #004596;
+  font-weight: black;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 30px;
+  color: #5989C3;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 16px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 80px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+strong {
+  font-size: 20px;
+}
+
+.minor {
+  font-size: 14px;
+  margin-top: -40px;
+}
+
+.header {
+  color: black;
+}
+.begin {
+  margin-top: 500px
+}
+.btn-outline-primary {
+    color: #5583BB;
+    border-color: #5583BB;
+}
+
+.btn-outline-primary:hover {
+  border-color: #5583BB;
+  background-color: #5583BB;
+}
+
+.btn-danger {
+  height: 38px;
 }
 
 .project {
@@ -29,18 +99,23 @@ h3 {
   margin: 20px 0;
 }
 
-.project a {
+.project {
+  text-decoration: none;
   text-align: left;
 }
 
-//option1
-.btn-grad {
-  padding: 20px;
-  border-radius: 8px;
-  background-color: linear-gradient(to right, #ECE9E6 0%, #FFFFFF 51%, #ECE9E6 100%);
+.more {
+  text-align: center !important;
+  background-color: #5684bc;
+  width: 100%;
+  color: white;
+  border-radius: 100px;
+  padding: 5px 0;
+  transition: 0.2s ease;
 }
-.btn-grad:hover {
- background-position: right center;
+
+.more:hover {
+  background-color:#73ACEF;
 }
 
 
@@ -48,10 +123,39 @@ img {
   height: 100%;
   width: 100%;
   border-radius: 5px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .phone-img {
-  height: 812px;
-  width: 375px;
+  height: 80%;
+  width: 40%;
 }
+
+.about {
+  color: white;
+}
+
+.contact {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: black;
+}
+
+
+@media screen and (max-width: 768px) {
+  .title h1 {
+    font-size: 49px;
+  }
+
+  .project {
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .title h1 {
+    font-size: 38px;
+  }
+}
+
+
+
