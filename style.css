@@ -9,6 +9,7 @@ body {
   z-index: 0;
 }
 
+
 .title {
   margin-top: 10vh;
 }
@@ -17,12 +18,37 @@ body {
   font-size: 475%;
 }
 
+.title p {
+  font-size : 24px;
+}
+
 .white {
   position: absolute;
   left: 0;
   top: 0;
   height: 50vh;
   z-index: -1;
+}
+
+.skill {
+  height: 150px;
+  width: 150px;
+}
+
+.short {
+  width: 110px;
+}
+
+.long {
+  width: 350px;
+}
+.down {
+  z-index: -1;
+  height: 80vh;
+  position: absolute;
+  transform: scaleY(-1);
+  bottom: -100px;
+  left: 0;
 }
 
 .container {
@@ -35,6 +61,11 @@ body {
 .margin {
   margin-bottom: 25vh;
 }
+
+.last {
+  margin-bottom: 300px !important;
+}
+
 h2 {
   font-size: 50px;
   text-align: center;
@@ -136,8 +167,20 @@ img {
 }
 
 .contact {
-  background-color: rgba(255, 255, 255, 0.4);
+  text-decoration: none;
   color: black;
+  height: 420px
+}
+
+.contact a{
+  text-decoration: none;
+  color: #5684bc;
+  transition: 0.1s ease;
+}
+
+.contact a:hover{
+  font-weight: bold;
+  font-size: 18px;
 }
 
 
