@@ -35,7 +35,9 @@ h3 {
 
 //option1
 .btn-grad {
-  background-image: linear-gradient(to right, #ECE9E6 0%, #FFFFFF 51%, #ECE9E6 100%)
+  padding: 20px;
+  border-radius: 8px;
+  background-color: linear-gradient(to right, #ECE9E6 0%, #FFFFFF 51%, #ECE9E6 100%);
 }
 .btn-grad:hover {
  background-position: right center;
