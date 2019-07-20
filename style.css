@@ -2,7 +2,8 @@ body {
   font-family: 'Nunito', sans-serif;
   margin: 0 10vh;
   padding: 0;
-  background-color: #004596;
+  background: rgb(125,185,255);
+  background: linear-gradient(0deg, rgba(125,185,255,1) 0%, rgba(0,69,150,1) 100%);
   text-align: justify;
   color: white;
 }
