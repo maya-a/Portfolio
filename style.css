@@ -3,9 +3,12 @@ body {
   margin: 0 10vh;
   padding: 0;
   background-color: #004596;
-  min-height: 100vh;
   text-align: justify;
   color: white;
+}
+
+.container {
+  min-height: 100vh;
 }
 h2 {
   text-align: center;
