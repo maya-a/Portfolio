@@ -1,1 +1,39 @@
+.body {
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #004596;
+}
+h2 {
+  text-align: center;
+  font-size: 36px;
+}
 
+.project {
+  background-color: white;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.4);
+  border-radius: 8px;
+}
+
+//option1
+.btn-grad {
+  color: #004596;
+  background-image: linear-gradient(to right, #ECE9E6 0%, #FFFFFF 51%, #ECE9E6 100%)
+}
+.btn-grad:hover {
+ background-position: right center;
+}
+
+//option2
+// .btn-grad {
+//   background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA 51%, #77A1D3 100%)
+// }
+
+// .btn-grad:hover {
+//   background-position: right center;
+// }
+
+img {
+  height: 400px;
+  width: 600px;
+}
