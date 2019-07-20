@@ -17,10 +17,15 @@ h2 {
 
 .project {
   color: black;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.5);
   box-shadow: 0 0 30px rgba(255, 255, 255, 0.4);
   border-radius: 8px;
   padding: 100px;
+  margin: 20px 0;
+}
+
+.project a {
+  text-align: left;
 }
 
 //option1
@@ -31,18 +36,12 @@ h2 {
  background-position: right center;
 }
 
-//option2
-// .btn-grad {
-//   background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA 51%, #77A1D3 100%)
-// }
-
-// .btn-grad:hover {
-//   background-position: right center;
-// }
 
 img {
   height: 100%;
-  width: 600px;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
 }
 
 .phone-img {
