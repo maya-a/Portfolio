@@ -6,16 +6,20 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://maya-a.github.io/Portfolio/" />
     <meta property="og:image" content="######### 1260*630" />
-    <meta property="og:description" content="This is Maya Aderka's web portfolio" />
+    <meta property="og:description" content="<%= meta_description %>" />
     <meta property="og:site_name" content="Maya Aderka" />
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,700,900&display=swap" rel="stylesheet">
     <!--  -->
     <!-- favicon -->
+    <% favicon_link_tag asset_path('######## a**2') %>
    <!--  -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
+    <% csrf_meta_tags %>
+    <% action_cable_meta_tag %>
+    <% stylesheet_link_tag 'application', media: 'all' %>
+    <% stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Maya Aderka</title>
   </head>
@@ -33,7 +37,7 @@
       <h4>Main Language: Hebrew</h4>
       <a href="Candycrush65.com">Website's Link: cnadycrush65.com</a>
       <img src="c-candycrush.png" alt="Candy crush home page">
-      <img src="p-candycrush.png" alt="Candy crush home page">
+      <img src="-candycrush.png" alt="Candy crush home page">
 
       <p>
         This business sells personalized and unique gift boxes for any event, for a reasonable price. The website’s goal was to showcase the different gift boxes sold, as well as to encourage the user to contact the business through social media, for them to create a personalized gift of their own.
