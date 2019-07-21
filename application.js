@@ -1,3 +1,14 @@
+//hamburger
+
+const hamburger = document.getElementById('burger');
+const menu = document.getElementById('menu');
+if (hamburger) {
+  hamburger.addEventListener("click", () => {
+    menu.classList.toggle("show");
+    menu.classList.toggle("hide");
+  });
+}
+
 //button 1
 
 const button1 = document.getElementById('button1');

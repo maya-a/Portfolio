@@ -20,7 +20,22 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body >
-    <div class="header d-flex flex-column align-items-cneter mx-5">
+    <nav>
+      <div id="burger" class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+
+      <div id ="menu" class = "hide d-flex flex-column justify-content-center">
+        <a href="#top">top</a>
+        <a href="#about">about me</a>
+        <a href="#skills">My skills</a>
+        <a href="#projects">Projects</a>
+        <a id="last" href="#contact">Contact me</a>
+      </div>
+    </nav>
+    <div id="top"class="header d-flex flex-column align-items-cneter mx-5">
        <div class="margin">
          <img class="white" src="Ellipse.png" alt="Candy crush home page">
          <div class="d-flex justify-content-center">
@@ -57,7 +72,7 @@
         <div class="d-flex justify-content-center">
            <a href="#contact" class = "btn btn-outline-light wider " >Contact me</a>
         </div>
-         <br><br>
+         <br id="skills"><br>
       <h2>My Skills</h2>
       <br>
         <div class="row skills">
