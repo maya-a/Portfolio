@@ -13,7 +13,6 @@ body {
 .hamburger {
   z-index: 2;
   background-color: rgb(230, 240, 250);
-  display: none;
   position: fixed;
   padding-left: 30px;
   top: 15px;
@@ -262,9 +261,6 @@ img {
 
 
 @media screen and (max-width: 768px) {
-  .hamburger {
-    display: block;
-  }
 
   .title h1 {
     font-size: 49px;
