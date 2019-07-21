@@ -30,33 +30,38 @@
       <div id ="menu" class = "hide d-flex flex-column justify-content-center">
         <a href="#top">top</a>
         <a href="#about">about me</a>
-        <a href="#skills">My skills</a>
         <a href="#projects">Projects</a>
         <a id="last" href="#contact">Contact me</a>
       </div>
     </nav>
-    <div id="top"class="header d-flex flex-column align-items-cneter mx-5">
-       <div class="margin">
-         <img class="white" src="Ellipse.png" alt="Candy crush home page">
-         <div class="d-flex justify-content-center">
+    <div id="top"class="header d-flex flex-column align-items-center mx-5">
+       <div>
+         <img class="white" src="Ellipse.png" alt="home">
+         <img class="navbar" src="small ellipse.png" alt="navbar">
+         <div class="d-flex front justify-content-around">
+           <a href="#about" >Learn more about me</a>
+           <a href="#projects" >View my projects</a>
+           <a href="#contact">Contact me</a>
+         </div>
+         <div class="d-flex justify-content-center mt-5">
           <div class= "title">
-            <h1 >Hi, i'm Maya</h1>
+            <h1 >Hi, I'm Maya</h1>
             <p class= "text-left">I am a Full-stack developer, currently residing in Tel-Aviv</p>
-            <a href="#about" class = "btn btn-outline-primary" >Learn more about me</a>
+            <!-- <div class="mt-4 d-flex justify-content-between">
+              <a href="#about" class = "btn btn-outline-primary" >Learn more about me</a>
+              <a href="#projects" class = "btn btn-outline-primary"  >View my projects</a>
+              <a href="#contact" class = "btn btn-outline-primary" >Contact me</a>
+            </div> -->
+            </div>
           </div>
          </div>
        </div>
        <br>
-    </div>
-
-    <div class="d-flex align-items-center margin flex-column">
-      <a href="#projects" class = "btn btn-outline-light wider mb-4" >View my projects</a>
-      <a href="#contact" class = "btn btn-outline-light wider " >Contact me</a>
-    </div>
-    <div class="container">
+    <div id="about" class="container">
+      <br> <br> <br> <br>
   <div class="row">
     <div class="col-10 offset-1 col-lg-8 offset-lg-2">
-       <h2 id="about" class = "pt-5">About Me</h2>
+       <h2>About Me</h2>
        <br>
       <p class = "about text-justify">Hi, my name is Maya
         <br> <br>
@@ -68,17 +73,13 @@
         <br><br>
         Today, I am a student In the Tel-Aviv University, studying computer science, Psychology and Neuroscience. As a student I continue to improve myself and gain more knowledge, which I later implement in my work as a  developer. With this website i hope to approach more people and find a part time job in which i'd be able to apply my fullstack developing skills</p>
         <br>
-
-        <div class="d-flex justify-content-center">
-           <a href="#contact" class = "btn btn-outline-light wider " >Contact me</a>
-        </div>
         <br id="skills">
          <br> <br>
       <h2>My Skills</h2>
       <br>
         <div class="row skills">
        <div class="col-5 offset-md-3 col-md-3">
-          <img class = "skill" src="ruby.svg.png" alt="Ruby">
+          <img class = "skill" src="ruby.svg.png" alt="Ruby" style ="height: 90px; width: 90px;">
        </div>
           <div class="col-6 col-md-6">
             <img class = "skill long" src="rails.svg.png" alt="Rails">
@@ -93,25 +94,23 @@
             <img class = "skill short" src="js.png" alt="js">
         </div>
           <div class="col-5 col-md-3">
-            <img class = "skill" src="Python.svg.png" alt="Python">
+            <img class = "skill mt-4" src="Python.svg.png" alt="Python" style ="height: 120px; width: 120px;">
           </div>
         </div>
 
       <br>
-       <div class="d-flex justify-content-center">
-         <a href="#contact" class = "btn btn-outline-light wider " >Contact me</a>
-       </div>
     </div>
   </div>
 </div>
-    <div class="container">
-      <h2 id="projects" class = "pt-5">My projects</h2>
+    <div id="projects" class="container">
+      <br> <br>
+      <h2  class = "pt-5">My projects</h2>
       <p class = "text-center">I love coding and enjoy creating my projects, and I hope you’ll like them as well...
       </p>
 
       <div class=" p-5 row justify-content-between align-items-center logos">
         <div class="col-6 col-md-3">
-          <a href="#candy"><img src="cc.svg" alt="candycrush65"></a>
+          <a class = "ml-4" href="#candy"><img src="cc.svg" alt="candycrush65"></a>
         </div>
         <div class="col-6 col-md-3">
           <a href="#cocktail"><img src="MCL.png" alt="Mister Cocktail"></a>
@@ -129,7 +128,7 @@
               <a class = "btn btn-danger" href="https://www.candycrush65.com" target="_blank" >Link
               </a>
             </div>
-            <h4>Main Language: Hebrew</h4>
+            <h4>Creating personal gifts at a reasonable price </h4>
             <img src="c-candycrush.png" alt="Candy crush home page">
             <div id="extra1" class="d-none">
               <div class="d-flex justify-content-between">
@@ -139,8 +138,6 @@
                 <br>
                 <p class = "text-justify">
                   <strong>about:</strong> <br>
-                This business sells personalized and unique gift boxes for any event, for a reasonable price. The website’s goal was to showcase the different gift boxes sold, as well as to encourage the user to contact the business through social media, for them to create a personalized gift of their own.
-                <br> <br>
                 My goal was to create a colorful and inviting website for the people who stumble upon it through an ad. To me, this means a simple and recognizable design that is easy to understand and to navigate through. all boxes are displayed, so the user can view all of them and choose one. Once he chooses a gift he can view it in more detail and buy it or contact the business through phone or social media.
                  </p>
             </div>
@@ -153,7 +150,7 @@
               <h3>Mister cocktail</h3>
               <a class = "btn btn-danger" href="https://mister-cocktail-may.herokuapp.com/cocktails" target = "_blank">Link</a>
             </div>
-            <h4>Main Language: English</h4>
+            <h4>Create and share all your cocktail recipies</h4>
             <img src="MisterCocktail.png" alt="my Mister cocktail home page">
             <p class = "minor text-justify">
             * this is a demo website, hosted on Heroku, Therefore the page may take up to 30 seconds to initially load.</p>
@@ -172,7 +169,7 @@
               <h3>SockCiety</h3>
               <a class = "btn btn-danger" href="https://socks-mpfadenhauer.herokuapp.com/" target = "_blank">Link</a>
             </div>
-            <h4>Main Language: English</h4>
+            <h4>Find a pair to your lonely sock</h4>
             <img src="Sockciety.png" alt="socksiety home page">
             <p class = "minor text-justify">
                * this is a demo website, hosted on Heroku, Therefore the page may  take up to 30 seconds to initially load.
@@ -182,6 +179,8 @@
               <strong>about:</strong> <br>
               SockCiety, my first team project. This fun project has a special place in my heart, as it solves an important phenomenon we all have faced, losing socks! This website won’t help you prevent your next loss, but will provide a solution to deal with it. This website offers you to find your sock’s pair, and enjoy it again. On the website, you can view all existing socks and search for your specific sock based on its characteristics. If you find a sock you can view its location and the reviews other users gave to its owner. Then, you can  buy the sock and enjoy your favorite socks again. <br> <br>
               As mentioned above, this project has been made by a team. My main role in the project was working on the Backhand (behind the design, making the logic work). My main contribution to the design was the home page and the purchase confirmation message.
+              <br> <br>
+              <img src="sockcess.png" alt="checkout">
             </p>
             <div id="button3" class="more" >More info</div>
          </div>
@@ -192,7 +191,7 @@
              <h3>Joyage</h3>
              <a class = "btn btn-danger" href="http://www.joyage.fun/" target = "_blank">Link</a>
            </div>
-           <h4>Main Language: English</h4>
+           <h4>Find the perfect flight for you and your friends from around the world</h4>
            <!-- <a href="##################"> This website is no longer functioning due to resource limitations. You can view its full demo right here!</a> -->
            <img src="Joyage.png" alt="Joyage home page">
            <p class = "minor text-justify">
@@ -230,4 +229,5 @@
  <img class="down" src="Ellipse.png" alt="my">
   </body>
   <script src="application.js"></script>
+
 </html>

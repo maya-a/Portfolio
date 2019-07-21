@@ -9,9 +9,33 @@ body {
   z-index: 0;
 }
 
+.navbar {
+  z-index: 1;
+  height: 10vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0;
+  border-radius: 0;
+}
+
+.front {
+  margin-top: 3vh;
+  width: 80vh;
+  position: fixed;
+  z-index: 6;
+  font-weight: bold;
+}
+
+.front a {
+  color: #5989C3;
+  text-decoration: none;
+}
 
 .hamburger {
   z-index: 2;
+  display: none;
   background-color: rgb(230, 240, 250);
   position: fixed;
   padding-left: 30px;
@@ -27,7 +51,7 @@ body {
   height: 5px;
   width: 30px;
   margin-bottom: 5px;
-  background-color:#5989C3;
+  background-color: #5989C3;
   border-radius: 100px;
 }
 
@@ -70,6 +94,7 @@ body {
 }
 
 .title {
+  transition: 1s ease;
   margin-top: 10vh;
 }
 
@@ -82,6 +107,7 @@ body {
 }
 
 .white {
+  border-radius: 0;
   position: absolute;
   left: 0;
   top: 0;
@@ -261,7 +287,12 @@ img {
 
 
 @media screen and (max-width: 768px) {
-
+  .navbar, .front a {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
   .title h1 {
     font-size: 49px;
   }
@@ -291,6 +322,7 @@ img {
 
 }
 @media screen and (max-width: 360px) {
+
   .title h1 {
     font-size: 38px;
   }
