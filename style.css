@@ -302,9 +302,18 @@ img {
     margin-bottom: 50px;
   }
 
+  .white {
+    height: 60vh;
+  }
+
   .down {
     height: 90vh;
   }
+
+  h3 {
+    font-size: 22px;
+  }
+
 }
 
 
