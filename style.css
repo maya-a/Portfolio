@@ -134,7 +134,7 @@ body {
 }
 .down {
   z-index: -1;
-  height: 80vh;
+  height: 75vh;
   position: absolute;
   transform: scaleY(-1);
   bottom: -100px;
@@ -280,7 +280,7 @@ img {
 .contact a:hover{
   font-weight: bold;
   font-size: 18px;
-  margin: 40px 0;
+  margin: 20px 0;
 }
 
 
