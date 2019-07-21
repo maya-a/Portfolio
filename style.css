@@ -49,9 +49,7 @@ body {
   position: fixed;
   height: 100vh;
   left: 0;
-  padding-left: 85px;
-  padding-right: 85px;
-  padding-top: 30px;
+  padding: 35px 85px;
   top: 0;
 }
 
@@ -299,6 +297,17 @@ img {
 @media screen and (max-width: 360px) {
   .title h1 {
     font-size: 38px;
+  }
+
+  .show {
+    height: 101vh;
+  }
+  .hide a, .show a {
+    margin-bottom: 50px;
+  }
+
+  .down {
+    height: 90vh;
   }
 }
 
