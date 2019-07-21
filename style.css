@@ -142,14 +142,12 @@ body {
 }
 
 .logos img{
-  max-height: 300px;
   max-width:300px;
   transition: 0.1s ease;
+  opacity: 0.6;
 }
 .logos img:hover {
-  max-height: 310px;
-  max-width:310px;
-
+  opacity: 1;
 }
 
 .container {
