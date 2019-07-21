@@ -40,7 +40,8 @@ body {
 }
 
 .long {
-  width: 350px;
+  width: 205px;
+  height: 85px;
 }
 .down {
   z-index: -1;
@@ -49,6 +50,17 @@ body {
   transform: scaleY(-1);
   bottom: -100px;
   left: 0;
+}
+
+.logos img{
+  max-height: 150px;
+  max-width:160px;
+  transition: 0.1s ease;
+}
+.logos img:hover {
+  max-height: 170px;
+  max-width:181px;
+
 }
 
 .container {

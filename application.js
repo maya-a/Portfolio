@@ -32,3 +32,15 @@ if (button4) {
     extra4.classList.toggle("d-none");
   });
 }
+
+
+// smooth transfer
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
