@@ -30,6 +30,10 @@ body {
   z-index: -1;
 }
 
+.skills {
+  justify-content: space-between;
+}
+
 .skill {
   height: 150px;
   width: 150px;
@@ -193,6 +197,7 @@ img {
 .contact a:hover{
   font-weight: bold;
   font-size: 18px;
+  margin: 40px 0;
 }
 
 
@@ -201,11 +206,33 @@ img {
     font-size: 49px;
   }
 
+  .skills {
+  justify-content: center;
+  }
+
+  .skill {
+    height: 100px;
+    width: 100px;
+  }
+
+  .short {
+    width: 70px;
+  }
+
+  .long {
+    margin-top: 20px;
+    width: 120px;
+    height: 60px;
+  }
+
   .project {
     padding: 30px;
   }
+  .down {
+  height: 72vh;
 }
 
+}
 @media screen and (max-width: 360px) {
   .title h1 {
     font-size: 38px;
