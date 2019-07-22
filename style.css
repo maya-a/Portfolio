@@ -9,6 +9,10 @@ body {
   z-index: 0;
 }
 
+i, span {
+  font-size: 18px;
+}
+
 .navbar {
   z-index: 1;
   height: 10vh;
@@ -17,6 +21,10 @@ body {
   left: 0;
   padding: 0;
   border-radius: 0;
+}
+
+.navbar img {
+  left: 0;
 }
 
 .front {
@@ -106,6 +114,7 @@ body {
 }
 
 .white {
+  width: 100vw;
   border-radius: 0;
   position: absolute;
   left: 0;
@@ -133,6 +142,7 @@ body {
   height: 85px;
 }
 .down {
+  width: 100vw;
   z-index: -1;
   height: 75vh;
   position: absolute;
@@ -275,12 +285,13 @@ img {
   text-decoration: none;
   color: #5684bc;
   transition: 0.1s ease;
+  width: 250px;
+  height: 38px;
 }
 
 .contact a:hover{
   font-weight: bold;
   font-size: 18px;
-  margin: 20px 0;
 }
 
 
@@ -347,6 +358,8 @@ img {
   }
 
 }
+
+
 
 
 
