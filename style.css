@@ -140,6 +140,7 @@ i, span {
   height: 85px;
 }
 .down {
+  border-radius: 0;
   width: 100vw;
   z-index: -1;
   height: 75vh;
